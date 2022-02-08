@@ -5,6 +5,7 @@ read from a file descriptor using static variables.
 
 ## Project description
 
+<code>to be written</code>
 
 ### Norm writing
 
@@ -19,5 +20,8 @@ This project is written in accordance to the norm of school 42. Some of the most
 
 First, clone my repository on your computer via the green "code" button on top of this page.
 All the functions can be compiled using my main.c file.
-Create a .txt file of your own choice where my function will read from
-- run <code>...</code> to
+Create a "test.txt" file with some text of your own choice which my get_next_line function will read from.
+You can also choose a buffer size of you own choice, add this in the compiling part at the question marks in "BUFFER_SIZE=??"
+- run <code>gcc get_next_line.c get_next_line_utils.c main.c -D BUFFER_SIZE=?? && ./a.out</code> to compile
+- to print multiple lines, add some lines of  <code> printf("%s", get_next_line(fd)); </code> in my main.
+
