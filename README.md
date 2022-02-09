@@ -4,8 +4,9 @@ get_next_line is one of the projects in the curriculum of school 42. This projec
 read from a file descriptor using static variables.
 
 ## Project description
-
-<code>to be written</code>
+<p>Subject document of the project: <a href="en.subject.pdf" target="_blank">get_next_line</a></p>
+Repeated calls to the function get_next_line should return text from a file descriptor one line at a time. You should use a single static variable and a buffer_size that decides how many bites we read at one go.
+The only allowed external functions to use with this projects are: read, malloc and free.
 
 ### Norm writing
 
